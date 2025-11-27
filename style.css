@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+}
+.anime{
+    background-color: #0b0c2a;    
+}
+
+header {
+    background-color: #070720;
+}
+
+.upper {
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0px 100px;
+}
+
+.navbar>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 16px;
+    color: #b7b7b7;
+    transition: all 3ms ease;
+}
+.navbar>li>a:hover{
+    color: #fff;
+}
+.navbar>li>a>i {
+    color: #b7b7b7;
+}
+.navbar>li>a>i:hover{
+    color: #fff;
+}
+/* .navbar>li{
+    position: relative;
+}
+#dropdown{
+    top: 0px;
+    visibility: hidden;
+}
+#dropdown:hover{
+    top: 0px;
+    visibility:visible;
+} */
+a>mark {
+    background-color: #e53637;
+    padding: 20px 20px 22px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+li>a>.fa-solid {
+    margin-left: 5px;
+}
+
+.corner_icons>span>.fa-solid {
+    margin: 10px 15px;
+}
+
+.lower {
+    width: 84%;
+    background-color: #4c4c4c;
+    margin: 0px 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.lower div {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    width: 100px;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    border: 4px;
+    background-color: #222;
+    padding: 5px;
+}
+.lower div:hover {
+    cursor: pointer;
+}
+
+/* ==================================== Header ends here ===================== */
+
+.hero {
+    background-color: #0b0c2a;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.slider {
+    background-image: url("https://preview.colorlib.com/theme/anime/img/hero/hero-1.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 85%;
+    display: flex;
+    align-items: end;
+}
+
+.slider div{
+    margin: 0px 0px 10px 50px;
+}
+
+.slider div mark{
+    background-color: #fff;
+    color: black;
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider div h1{
+    font-weight: 900;
+    line-height: 1.4;
+    font-size: 34px;
+    font-family: "Oswald", sans-serif;
+}
+
+.slider div button{
+    background-color: #e53637;
+    font-size: 13px;
+    height: 50px;
+    width: 120px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;    
+    gap: 10px;
+    padding-top: 50px;
+    margin: 0% 7.5%;
+}
+
+.left .trending{
+    margin-bottom: 60px;
+}
+.left .trending .heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.trending .heading div{
+    display: flex;
+}
+.left .trending .heading div div{
+    background-color: red;
+    height: 30px;
+    width: 5px;
+    margin-right: 15px;
+}
+.left .trending .heading div h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0px 20px 0px;
+}
+.left .trending .heading a{
+    font-size: small;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 10px 10px 20px 0px;
+}
+
+.left .trending .row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.left .trending .row .box .col1{
+    display: flex;
+    position: relative;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.left .trending .row .box .col1:hover{
+    transform: scale(1.1,1.05);
+    cursor: pointer;
+}
+.rate{
+    background-color: red;
+    padding: 5px 10px;
+    margin: 8px;
+    position: absolute;
+    font-size: small;
+}
+.left .trending .row .box .col1 .view{
+    bottom: 10px;
+    display: flex;
+    position: absolute;
+    width: 220px;
+
+}
+.left .trending .row .box .col1 .view  div{
+    position: absolute;
+    background-color: #4c4c4c;
+    left: 8px;
+    bottom: 0px;
+    font-size: small;
+    padding: 5px;
+}
+.left .trending .row .box .col1 .view  p{
+    position: absolute;
+    background-color: #3d3d3d;
+    right: 0px;
+    bottom: 0px;
+    font-size: small;
+    padding: 5px;
+}
+.left .trending .row .box .action{
+    display: flex;
+    gap: 7px;
+    margin: 10px 5px;
+}
+.left .trending .row .box .action p{
+    background-color: #3d3d3d;
+    border-radius: 50%;
+    padding: 5px; 
+    font-size: 10px;  
+}
+.left .trending .row .box h3{
+    margin-right: 5px;
+    width: 18vw;
+}
+.left .trending .row .box h3:hover{
+    cursor: pointer;
+}
+/* ========================== Right part of grid starts here ============================ */
+
+.right .upper_column .heading {
+    display: flex;
+    justify-content: space-between;
+}
+.right .upper_column .heading div{
+    display: flex;
+}
+.right .upper_column .heading div h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+.right .upper_column .heading div div{
+    background-color: red;
+    height: 30px;
+    width: 5px;
+    margin-right: 15px;
+}
+.right .upper_column .heading nav{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+    margin: 10px 5px 20px 0px;
+}
+.right .upper_column .heading nav a{
+    text-decoration: none;
+    color: #b3aaaa;
+}
+.right .upper_column .heading nav a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.right .upper_column .top_views .box{
+    position: relative;
+    display: flex;
+    margin: 20px 0px;
+    transition: all 1s ease;
+}
+.right .upper_column .top_views .box:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.right .upper_column .top_views .box p{
+    position: absolute;
+    background-color: #3d3d3d;
+    right: 0px;
+    margin: 8px;
+    font-size: small;
+    padding: 5px;
+}
+.right .upper_column .top_views .box h4{
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    width: 20vw;
+}
+.right .lower_column .heading div{
+    background-color: red;
+    height: 30px;
+    width: 5px;
+    margin-right: 15px;
+}
+.right .lower_column .heading{
+    margin: 80px 0px 20px 0px;
+    display: flex;
+}
+.right .lower_column .container{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.right .lower_column .container h4{
+    margin: 10px 0px;
+    width: 17vw;
+}
+.right .lower_column .container h4:hover{
+    cursor: pointer;
+}
+.right .lower_column .container .action{
+    display: flex;
+    gap: 7px;
+}
+.right .lower_column .container .action p{
+    color: #fff;
+    background-color: #4c4c4c;
+    border-radius: 50%;
+    padding: 5px; 
+    font-size: 10px;  
+}
+.right .lower_column .container p{
+    font-size: 12px;
+    color: #b19f9f;  
+
+}
+.right .lower_column .container i{
+    color: #b19f9f;  
+}
+
+/* =============================== End of main ============================ */
+
+footer{
+    background-color: #070720;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    padding-top: 60px;
+}
+footer .logo:hover{
+    cursor: pointer;
+}
+footer nav a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+footer nav a{
+    cursor: pointer;
+}
+footer .copyright{
+    width: 21vw;
+    line-height: 1.5;
+}
+footer .copyright div{
+    color: #3d3d3d;
+}
+footer .copyright div i{
+    color: #3d3d3d;
+}
+footer .copyright mark{
+    background-color: transparent;
+    color: blue;
+}
